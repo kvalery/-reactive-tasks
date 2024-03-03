@@ -1,0 +1,14 @@
+:host {
+  height: 100%;
+}
+.nav{
+  height: 100%;
+  max-width: 100px;
+  border-right: 1px solid #cecece;
+}
+.mat-list-item{
+ cursor: pointer;
+  &:hover{
+    opacity: 0.5;
+  }
+}

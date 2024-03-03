@@ -1,0 +1,15 @@
+// выравнивание по центру
+@mixin flex_row {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: start;
+}
+
+.main{
+  @include flex_row;
+  height: 100%;
+}
+.router-box{
+  padding: 22px;
+}
