@@ -14,6 +14,14 @@ export class NavComponent implements OnInit {
     name: '.map',
     rout:'/map'
     },
+    {
+    name: 'filters',
+    rout:'/filters'
+    },
+    {
+    name: 'observable',
+    rout:'/observable'
+    },
   ]
 
 
